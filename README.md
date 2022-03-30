@@ -1,4 +1,4 @@
-# Solving the Countdown Numbers Game
+# The Countdown Numbers Game
 
 The Countdown numbers game is specified as follows:
 
@@ -17,6 +17,28 @@ The file `Countdown.h` contains a small class `CountdownSolution` for storing so
 In `Countdown.h`, `solveCountdownProblem` takes a `vector<int>` containing 6 numbers, and a target number; and returns a `CountdownSolution` object containing the solution to the problem that gets as close as possible to the target.
 
 `TestCountdown.cpp` evaluates some Countdown numbers games problems, and check they give the right answer.
+
+# How to compile and run
+
+Open the terminal and cd to the directory containing countdown game files:
+
+```
+cd PATH_TO_THE_CLONED_DIRECTORY
+```
+
+Compile the test file:
+
+```
+g++ -std=c++11 -o test TestCountdown.cpp
+```
+
+Run tests
+
+```
+./test
+```
+
+Add more tests to the TestCountdown.cpp file to check other solutions
 
 ***
 
