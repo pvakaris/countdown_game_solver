@@ -10,7 +10,7 @@ For instance if the numbers are (100,4,17,9,3,2) and the target is 37, then one 
 
 ***
 
-## Solving countdown problems
+# Solving countdown problems
 
 The file `Countdown.h` contains a small class `CountdownSolution` for storing solutions to Countdown numbers problems: a string containg an RPN numeric expression, and an int containing the value that expression evaluates to.
 
