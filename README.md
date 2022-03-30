@@ -18,6 +18,8 @@ In `Countdown.h`, `solveCountdownProblem` takes a `vector<int>` containing 6 num
 
 `TestCountdown.cpp` evaluates some Countdown numbers games problems, and check they give the right answer.
 
+***
+
 # How to compile and run
 
 Open the terminal and cd to the directory containing countdown game files:
